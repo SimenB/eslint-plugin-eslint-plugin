@@ -29,7 +29,6 @@ const rule: Rule.RuleModule = {
         description:
           "Whether to enforce having output assertions 'always' or to be 'consistent' when some cases have them.",
         enum: ['always', 'consistent'],
-        default: 'consistent',
       },
     ],
     defaultOptions: ['consistent'],

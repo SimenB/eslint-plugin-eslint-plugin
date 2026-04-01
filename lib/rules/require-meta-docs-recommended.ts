@@ -49,7 +49,6 @@ const rule: Rule.RuleModule = {
         type: 'object',
         properties: {
           allowNonBoolean: {
-            default: false,
             description: 'Whether to allow values of types other than boolean.',
             type: 'boolean',
           },

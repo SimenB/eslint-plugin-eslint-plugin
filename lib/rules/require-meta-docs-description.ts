@@ -24,7 +24,6 @@ const rule: Rule.RuleModule = {
             type: 'string',
             description:
               "A regular expression that the description must match. Use `'.+'` to allow anything.",
-            default: '^(enforce|require|disallow)',
           },
         },
         additionalProperties: false,

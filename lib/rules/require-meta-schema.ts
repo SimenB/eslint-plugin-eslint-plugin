@@ -29,7 +29,6 @@ const rule: Rule.RuleModule = {
         properties: {
           requireSchemaPropertyWhenOptionless: {
             type: 'boolean',
-            default: true,
             description:
               'Whether the rule should require the `meta.schema` property to be specified (with `schema: []`) for rules that have no options.',
           },
